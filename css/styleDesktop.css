@@ -1,0 +1,117 @@
+@media screen and (min-width: 900px) {
+  .container {
+    position: relative;
+    width: 85%;
+  }
+  .image-nav {
+    float: left;
+  }
+  .menu-navbar {
+    list-style: none;
+    height: inherit;
+    float: right;
+    font-size: 14px;
+    font-family: 'Montserrat Light';
+    box-shadow: none;
+  }
+  .menu-item {
+    float: left;
+    margin-left: 30px;
+  }
+  .menu-item:hover {
+    background-color: white;
+  }
+  .menu-item:hover > a {
+    color: #418E53;
+  }
+  .menu-item a {
+    text-decoration: none;
+    color: #418E53;
+    transition: all 0.3s;
+  }
+  .menu-item a:hover {
+    font-family: 'Montserrat SemiBold';
+    font-size: 16px;
+    border-bottom: 3px solid #FDD831;
+    border-radius: 3px;
+    padding-bottom: 3px;
+  }
+  .menu-button {
+		width: 0px;
+		height: 0px;
+		display: none;
+		float: none;
+  }
+
+  /* Jumbotron Full */
+  .jumbotron-image {
+    width: 50%;
+    float: left;
+    height: 100%;
+  }
+  .jumbotron-image img {
+    margin-top: 100px;
+    width: 350px;
+  }
+  .jumbotron-interest {
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 0;
+  }
+  .jumbotron-interest p {
+    margin-top: 200px;
+    line-height: 30px;
+    font-size: 24px;
+  }
+  .jumbotron-interest button {
+    height: 30px;
+  }
+  .box-next {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .next {
+    width: 25px;
+    height: 25px;
+  }
+
+
+  /* Product */
+  .product {
+    min-height: 600px;
+  }
+  .product .product-all {
+    width: 30%;
+    height: 30px;
+  }
+  .product-body {
+    min-height: 660px;
+  }
+  .product-content {
+    width: 210px;
+    height: 350px;
+  }
+  .content-image {
+    display: block;
+    height: 150px;
+  }
+  .product-content .name {
+    margin-top: 15px;
+  }
+  .product-content hr {
+    background-color: rgb(146, 146, 146);
+  }
+  .product-content .address {
+    margin-right: 15px;
+  }
+  .price {
+    margin-top: 25px;
+  }
+  .more-button {
+    margin-top: 25px;
+  }
+  
+
+
+}

@@ -1,0 +1,209 @@
+@media screen and (min-width: 450px) {
+
+  .container {
+    width: 100%;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+  } 
+  /* Nav Top */
+  .nav-top {
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(7, 7, 7, 0.233);
+    width: 100%;
+    height: 60px;
+    line-height: 55px;
+  }
+  .image-nav {
+    float: none;
+    width: 100px;
+    margin-left: 30px;
+    height: inherit;
+    line-height: 80px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .logo {
+    width: 80%;
+  }
+  .menu-button {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    box-sizing: border-box;
+    padding-top: 12px;
+    margin-right: 30px;
+    float: right;
+  }
+  .menu-button:hover {
+    background-color: rgb(48, 99, 59);
+    cursor: pointer;
+  }
+  .menu-button:active ~ .menu {
+    z-index: 10;
+    display: block;
+  }
+  .menu-button:hover > .strip {
+    background-color: #edf5e1;
+  }
+  .menu-button .strip {
+    width: 60%;
+    height: 5px;
+    background-color: rgb(48, 99, 59);
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu-navbar {
+    list-style: none;
+    height: 0px;
+    font-size: 14px;
+    font-family: 'Montserrat Light';
+    text-align: center;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.301);
+  }
+  .menu-item a {
+    text-decoration: none;
+    color: #418E53;
+  }
+  .menu-item:hover {
+    cursor: pointer;
+    background-color: none;
+  }
+  .menu-item:hover > a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  /* Jumbotron */
+  .jumbotron-image {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+  }
+  .jumbotron-image img {
+    margin-top: 50px;
+    width: 300px;
+  }
+  .jumbotron-interest {
+    text-align: left;
+    line-height: 20px;
+    padding: 0 50px;
+  }
+  .jumbotron-interest p, .jumbotron-interest button {
+    font-family: 'Montserrat'; 
+    color: white;
+  }
+  .jumbotron-interest p {
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+  }
+  .jumbotron-interest button {
+    margin-top: 5px;
+    border: none;
+    width: 220px;
+    background-color: rgb(61, 228, 100);
+    height: 20px;
+    border-radius: 20px;
+  }
+  .box-next {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .next {
+    width: 25px;
+    height: 25px;
+  }
+
+
+  /* Products */
+  .product {
+    min-height: 300px;
+    padding: 30px 0;
+  }
+  .product .product-all {
+    width: 30%;
+    display: block;
+    border: none;
+    margin: 15px auto 0;
+    border-radius: 10px;
+    min-height: 25px;
+    background-color: #418E53;
+    opacity: .5;
+    color: white;
+  }
+  .product-body {
+    min-height: 300px;
+    text-align: center;
+  }
+  .product-content {
+    margin-top: 10px;
+    width: 210px;
+    height: 300px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .content-image {
+    display: block;
+    height: 125px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .product-content .name {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .product-content hr {
+    background-color: rgb(146, 146, 146);
+  }
+  .product-content .address {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .price {
+    margin-top: 20px;
+  }
+  .product-content .price, .product-content .advantages {
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .advantages {
+    margin-top: 5px;
+  }
+  .product-body .go-right {
+    float: right;
+  }
+  .more-button {
+    width: 90%;
+    height: 30px;
+    background-color: #418E53;
+    margin-top: 18px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+  }
+
+  
+  
+  
+
+}
