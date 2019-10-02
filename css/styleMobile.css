@@ -77,7 +77,6 @@
   background-color: rgb(48, 99, 59);
   cursor: pointer;
 }
-
 .menu-button:hover > .strip {
 	background-color: #edf5e1;
 }
@@ -103,7 +102,6 @@
   transition: height 1s;
   z-index: 999;
 }
-
 .menu-item a {
   text-decoration: none;
   color: #418E53;
@@ -402,11 +400,77 @@
   font-size: 20px;
 }
 
+
+
+
+/* contact */
 .contact {
-  background-color: pink;
+  background-color: white;
   min-height: 200px;
   width: 100%;
+  font-family: 'Roboto';
 }
+.contact h2, {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+.row1,.row2 {
+  display: flex;
+  width: 100%;
+  height: inherit;
+  flex-direction: column;
+  color: rgb(109, 109, 109);
+}
+.logo-contact {
+  flex: 1;
+  height: 300px;
+  padding: 30px;
+  text-align: center;
+}
+.logo-contact img {
+  flex-wrap: wrap;
+  width: 80%;
+}
+.desc-contact {
+  flex: 1;
+  padding: 20px;
+  text-align: justify;
+}
+.row2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.socmed-contact {
+  text-align: center;
+}
+.socmed-contact img {
+  width: 30px;
+}
+.socmed-contact img:nth-child(2) {
+  margin: 0 30px;
+}
+.row2 {
+  min-height: 250px;
+  padding-top: 40px;
+}
+
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  line-height: 55px;
+  text-align: center;
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.356);
+}
+footer > p {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: rgb(109, 109, 109);
+  font-size: 14px;
+}
+
+
 
 
 
@@ -436,9 +500,11 @@
   background-color: rgba(0, 0, 0, 0.295);
   font-family: 'Roboto';
   font-weight: 450;
+  z-index: -20;
+  opacity: 0;
 }
 .box-login {
-  width: 450px;
+  width: 90%;
   height: 550px;
   background-color: white;
   border-radius: 10px;
@@ -486,18 +552,19 @@
   height: 40px;
   background-color: #1770CE;
   border: none;
-  margin-top: 20px;
-  font-size: 17px;
+  margin-top: 10px;
+  font-size: 16px;
   border-radius: 15px;
+  cursor: pointer;
 }
 .p-form {
-  margin-top: 20px;
+  margin-top: 14px;
   font-family: 'Roboto';
   font-weight: 300;
   text-align: center;
+  font-size: 14px;
 }
 .href-form {
-  margin-left: 10px;
   color: #1770CE;
   text-decoration: none;
   font-weight: bold;

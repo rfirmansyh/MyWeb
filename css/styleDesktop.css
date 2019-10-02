@@ -44,6 +44,10 @@
   }
 
   /* Jumbotron Full */
+  .jumbotron-full {
+    top: 0;
+    margin-bottom: 0;
+  }
   .jumbotron-image {
     width: 50%;
     float: left;
@@ -112,6 +116,54 @@
     margin-top: 25px;
   }
   
+
+
+  /* Contact */
+  
+  .row1 {
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 300px;
+    padding-top: 30px;
+  }
+  .logo-contact {
+    text-align: right;
+  }
+  .desc-contact {
+    padding-top: 60px;
+    text-align: justify;
+    padding-left: 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
