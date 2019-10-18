@@ -136,11 +136,96 @@
   }
 
 
+  /* interest */
+  .sort {
+    overflow: hidden;
+  }
+  .sort p {
+    float: left;
+  }
+  .sort form {
+    text-align: right;
+  }
+  .group-input {
+    display: block;
+    float: right;
+  }
+  .sort form input {
+    margin-right: 15px;
+  }
+  .sort form span {
+    margin-right: 20px;
+  }
 
 
 
 
 
+  /* single view */
+  .single-view-group .corp {
+    width: 70%;
+  }
+  .head-corp {
+    height: 200px;
+    padding-right: 30px;
+  }
+  .head-corp .corp-image {
+    padding: 0 10px;
+    width: 50%;
+  }
+  .head-corp .corp-image img {
+    width: 85%;
+  }
+  .corp-description {
+    height: inherit;
+    float: left;
+    overflow: hidden;
+    padding-left: 20px;
+    text-align: left;
+    position: relative;
+    padding-right: 20px;
+  }
+  .corp-description h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .corp-description p {
+    color: rgb(58, 57, 57);
+    border-bottom: 1px solid rgb(65, 64, 64);
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .corp-description .visit {
+    width: 88%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+  }
+
+  .single-view-group .similar {
+    min-height: inherit;
+    width: 30%;
+    float: right;
+  }
+  .similar-card-image {
+    width: 80px;
+    height: 80px;
+    background-color: #1770CE;
+  }
+  .similar-card .similar-card-title {
+    font-size: 24px;
+  }
+  .similar-card .similar-card-muted {
+    font-size: 18px;
+  }
+  
+
+  
+
+  
 
 
 

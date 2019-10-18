@@ -221,11 +221,150 @@
     font-size: 36px;
   }
 
+  /* interest */
+  .sort p {
+    float: none;
+  }
+  .sort form {
+    text-align: left;
+  }
+  .group-input {
+    display: block;
+  }
+  .sort form input {
+    margin-right: 15px;
+  }
+  .sort form span {
+    margin-right: 0px;
+  }
 
 
+  /* single view */
+.single-view-group .corp {
+  padding-top: 30px;
+  width: 100%;
+  min-height: inherit;
+  float: left;
+}
+.head-corp {
+  height: 200px;
+}
+.head-corp .corp-image {
+  padding: 0 10px;;
+  margin: 0;
+  width: 50%;
+  float: left;
+  height: inherit;
+}
+.head-corp .corp-image img {
+  height: inherit;
+  width: 100%;
+  border-radius: 5px;
+}
+.corp-description {
+  height: inherit;
+  float: right;
+  text-align: left;
+  padding-right: 20px;
+  width: 50%;
+}
+.corp-description h1 {
+  font-size: 22px;
+  color: rgb(58, 56, 56);
+  border-bottom: 1px solid black;
+  margin-bottom: 4px;
+}
+.corp-description p {
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.corp-description .corp-address {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 4px;
+  border: none;
+}
+.corp-description p .value {
+  float: right;
+}
+.corp-description .visit {
+  background-color: #4FB466;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+}
+.row-select {
+  margin-top: 20px;
+  width: 100%;
+  min-height: 45px;
+  overflow: hidden;
+  padding-top: 5px;
+}
+.row-select p {
+  width: 50%;
+  float: left;
+  padding: 10px 0;
+  margin-bottom: 0px;
+  cursor: pointer;
+  color: #434242
+}
+.corp-body p {
+  font-size: 18px;
+}
+.corp-body .corp-body-detail {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+.corp-body .corp-body-detail p {
+  color: #434242;
+  font-size: 22px;
+  font-weight: 400;
+}
 
 
-
+.single-view-group .similar {
+  min-height: inherit;
+  width: 100%;
+  float: right;
+}
+.similar-card {
+  height: 120px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+}
+.similar-card-image {
+  width: 80px;
+  height: 80px;
+  float: left;
+  background-color: pink;
+  margin-right: 10px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.similar-card-image img {
+  width: 100%;
+  height: 100%;
+}
+.similar-card .similar-card-title {
+  font-weight: bold;
+  text-align: left;
+  color: #4FB466;
+  overflow: hidden;
+}
+.similar-card .similar-card-muted {
+  text-align: left;
+  font-weight: 300;
+  overflow: hidden;
+}
 
 
 
