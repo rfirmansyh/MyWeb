@@ -1,0 +1,54 @@
+<div class="product-content on-product">
+  <img class="content-image on-product" src="img/sengon.jpg" alt="">
+  <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+  <hr>
+  <p class="address on-product">Lahan Kelompok Tani</p>
+  <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+  <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+  <button class="more-button on-product">Selengkapnya</button>
+</div>
+<div class="product-content on-product">
+  <img class="content-image on-product" src="img/jagung.jpg" alt="">
+  <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+  <hr>
+  <p class="address on-product">Lahan Kelompok Tani</p>
+  <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+  <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+  <button class="more-button on-product">Selengkapnya</button>
+</div>
+<div class="product-content on-product">
+  <img class="content-image on-product" src="img/ayam.jpg" alt="">
+  <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+  <hr>
+  <p class="address on-product">Lahan Kelompok Tani</p>
+  <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+  <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+  <button class="more-button on-product">Selengkapnya</button>
+</div>
+<div class="product-content on-product">
+  <img class="content-image on-product" src="img/iwak.jpg" alt="">
+  <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+  <hr>
+  <p class="address on-product">Lahan Kelompok Tani</p>
+  <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+  <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+  <button class="more-button on-product">Selengkapnya</button>
+</div>
+<div class="product-content on-product">
+  <img class="content-image on-product" src="img/sapi.jpg" alt="">
+  <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+  <hr>
+  <p class="address on-product">Lahan Kelompok Tani</p>
+  <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+  <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+  <button class="more-button on-product">Selengkapnya</button>
+</div>
+<div class="product-content on-product">
+  <img class="content-image on-product" src="img/telur.jpg" alt="">
+  <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+  <hr>
+  <p class="address on-product">Lahan Kelompok Tani</p>
+  <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+  <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+  <button class="more-button on-product">Selengkapnya</button>
+</div>

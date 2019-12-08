@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,13 @@
   <link rel="stylesheet" href="css/styleDesktop2.css">
   <title>Single View : Product 1</title>
 </head>
+
 <body>
   <!-- Login -->
   <div class="access">
     <div class="container">
-      <a href="" class="register">Registrasi</a>
-      <a href="" class="login">Login</a>
+      <a class="register" onclick="register()" style="cursor: pointer">Registrasi</a>
+      <a class="login" onclick="login()" style="cursor: pointer">Login</a>
     </div>
   </div>
   <!-- End of Login -->
@@ -33,10 +35,7 @@
       </div>
       <ul class="menu-navbar">
         <li class="menu-item"><a href="index.html">Beranda</a></li>
-        <li class="menu-item"><a href="#">Bisnis</a></li>
-        <li class="menu-item"><a href="#">Cara Kerja</a></li>
-        <li class="menu-item"><a href="#">Lowongan</a></li>
-        <li class="menu-item"><a href="#">Kebutuhan</a></li>
+        <li class="menu-item"><a href="interest.html">Semua Bisnis</a></li>
       </ul>
     </div>
   </nav>
@@ -48,7 +47,7 @@
         <div class="single-view-group">
           <!-- corp -->
           <div class="corp">
-          <!-- head -->
+            <!-- head -->
             <div class="head-corp">
               <div class="corp-image">
                 <img src="img/sengon.jpg" alt="">
@@ -58,7 +57,7 @@
                 <p class="corp-address">lahan Kelompok tani panti</p>
                 <p>Harga <span class="value">Rp. 4.000.000</span></p>
                 <p>Keuntungan <span class="value">17% per tahun</span></p>
-                <a href="" class="visit">Gabung</a>
+                <a class="visit" onclick="login()" style="cursor: pointer;">Gabung</a>
               </div>
             </div>
             <div class="row-select">
@@ -73,22 +72,22 @@
               <div class="loc-map">
                 <img src="img/map.jpg" alt="">
               </div>
-              <div class="corp-body-detail">
+              <div class="corp-body-detail" id="detail">
                 <p>
-                    Bibit Sengon adalah komoditas penting untuk Indonesia. Industri pakan ternak merupakan 
-                    salah satu konsumen terbesar jagung nasional dengan 
-                    tingkat kebutuhan sekitar 12 juta ton per tahun dan akan  terus meningkat.
-                    
-                    Untuk mencukupi kebutuhan tersebut, kita membutuhkan benih jagung sekitar 60,000 ton,
-                    dimana saat ini produksi benih jagung nasional baru berada di kisaran 30,000 ton per tahun. 
-                    Sebagian besarnya masih diproduksi oleh perusahaan global produsen benih. <br>
-                    
-                    Oleh karena itu masih sangat besar ruang bagi produsen lokal untuk masuk. Terlebih 
-                    sudah ada bibit jagung berkualitas dari beberapa Balai Penelitian Serelia milik Indonesia. 
-                    
-                    Program kemitraan penangkaran bibit jagung yang akan dilakukan oleh Kelompok 
-                    Tani Subur di Sanankerto Malang ini akan memberdayakan sekitar 30 orang lebih petani 
-                    jagung dengan luas garapan 40 hektar.
+                  Bibit Sengon adalah komoditas penting untuk Indonesia. Industri pakan ternak merupakan
+                  salah satu konsumen terbesar jagung nasional dengan
+                  tingkat kebutuhan sekitar 12 juta ton per tahun dan akan terus meningkat.
+
+                  Untuk mencukupi kebutuhan tersebut, kita membutuhkan benih jagung sekitar 60,000 ton,
+                  dimana saat ini produksi benih jagung nasional baru berada di kisaran 30,000 ton per tahun.
+                  Sebagian besarnya masih diproduksi oleh perusahaan global produsen benih. <br>
+
+                  Oleh karena itu masih sangat besar ruang bagi produsen lokal untuk masuk. Terlebih
+                  sudah ada bibit jagung berkualitas dari beberapa Balai Penelitian Serelia milik Indonesia.
+
+                  Program kemitraan penangkaran bibit jagung yang akan dilakukan oleh Kelompok
+                  Tani Subur di Sanankerto Malang ini akan memberdayakan sekitar 30 orang lebih petani
+                  jagung dengan luas garapan 40 hektar.
                 </p>
               </div>
             </div>
@@ -121,7 +120,7 @@
               <div class="clear"></div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>
@@ -162,8 +161,52 @@
   </footer>
   <!-- End of Footer -->
 
-<script src="js/jquery-3.3.1.js"></script>
-<script src="js/script.js"></script>
+  <!-- Modal Login -->
+  <div class="login-form" id="register">
+    <div class="box-login">
+      <span class="close" onclick="closeModal()">X</span>
+      <div class="clear"></div>
+      <h1 class="h1-registrasi">Registrasi</h1>
+      <hr>
+      <form>
+        <label for="name" class="label-form">Nama Lengkap</label>
+        <input type="text" name="name" id="name" class="input-form" />
+        <label for="name" class="label-form">Email</label>
+        <input type="text" name="name" id="name" class="input-form" />
+        <label for="name" class="label-form">Password</label>
+        <input type="text" name="name" id="name" class="input-form" />
+        <label for="name" class="label-form">Confirm Password</label>
+        <input type="text" name="name" id="name" class="input-form" />
+        <button type="submit" class="button-form">Registrasi</button>
+      </form>
+      <p class="p-form">Anda Sudah punya akun ? <a class="href-form" onclick="login()"
+          style="cursor: pointer;">Login</a></p>
+    </div>
+  </div>
+
+  <div class="login-form" id="login">
+    <div class="box-login">
+      <span class="close" onclick="closeModal()">X</span>
+      <div class="clear"></div>
+      <h1 class="h1-registrasi">Login</h1>
+      <hr>
+      <form action="gabung.html">
+        <label for="name" class="label-form">Email</label>
+        <input type="text" name="name" id="name" class="input-form" />
+        <label for="name" class="label-form">Password</label>
+        <input type="text" name="name" id="name" class="input-form" />
+        <button type="submit" class="button-form">Login</button>
+      </form>
+      <p class="p-form">Belum punya akun ? <a class="href-form" onclick="register()"
+          style="cursor: pointer">Register</a></p>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
+
 </html>

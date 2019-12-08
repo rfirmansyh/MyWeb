@@ -16,8 +16,10 @@
   <!-- Login -->
   <div class="access">
     <div class="container">
-      <a class="register" onclick="register()" style="cursor: pointer">Registrasi</a>
-      <a class="login" onclick="login()" style="cursor: pointer">Login</a>
+      <a href="profil.html" style="color: white; text-decoration: none;">
+        <p class="my-profile-dashboard"><span class="icon-profile"></span> Rahmad
+          Firmansyah</p>
+      </a>
     </div>
   </div>
   <!-- End of Login -->
@@ -34,7 +36,8 @@
         <div class="strip"></div>
       </div>
       <ul class="menu-navbar">
-        <li class="menu-item"><a href="index.html">Beranda</a></li>
+        <li class="menu-item"><a href="dashboard.html">Dashboard</a></li>
+        <li class="menu-item"><a href="index-logged.html">Halaman Utama</a></li>
       </ul>
     </div>
   </nav>
@@ -71,8 +74,63 @@
   <!-- Product -->
   <div class="product">
     <div class="product-body mt-3">
-      <div class="container cp" id="list-product">
+      <div class="container cp">
 
+        <div class="product-content on-product">
+          <img class="content-image on-product" src="img/sengon.jpg" alt="">
+          <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+          <hr>
+          <p class="address on-product">Lahan Kelompok Tani</p>
+          <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+          <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+          <button onclick="document.location.href = 'singleview_product1.html'"
+            class="more-button on-product">Selengkapnya</button>
+        </div>
+        <div class="product-content on-product">
+          <img class="content-image on-product" src="img/jagung.jpg" alt="">
+          <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+          <hr>
+          <p class="address on-product">Lahan Kelompok Tani</p>
+          <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+          <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+          <button class="more-button on-product">Selengkapnya</button>
+        </div>
+        <div class="product-content on-product">
+          <img class="content-image on-product" src="img/ayam.jpg" alt="">
+          <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+          <hr>
+          <p class="address on-product">Lahan Kelompok Tani</p>
+          <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+          <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+          <button class="more-button on-product">Selengkapnya</button>
+        </div>
+        <div class="product-content on-product">
+          <img class="content-image on-product" src="img/iwak.jpg" alt="">
+          <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+          <hr>
+          <p class="address on-product">Lahan Kelompok Tani</p>
+          <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+          <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+          <button class="more-button on-product">Selengkapnya</button>
+        </div>
+        <div class="product-content on-product">
+          <img class="content-image on-product" src="img/sapi.jpg" alt="">
+          <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+          <hr>
+          <p class="address on-product">Lahan Kelompok Tani</p>
+          <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+          <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+          <button class="more-button on-product">Selengkapnya</button>
+        </div>
+        <div class="product-content on-product">
+          <img class="content-image on-product" src="img/telur.jpg" alt="">
+          <h1 class="name on-product">Kemitraan Bibit Sengon</h1>
+          <hr>
+          <p class="address on-product">Lahan Kelompok Tani</p>
+          <p class="price on-product">Harga : <span class="go-right">Rp 4.000.0000</span></p>
+          <p class="advantages on-product">Keuntungan : <span class="go-right">17% pert tahun</span></p>
+          <button class="more-button on-product">Selengkapnya</button>
+        </div>
 
       </div>
       <div class="clear"></div>
@@ -146,14 +204,13 @@
       <div class="clear"></div>
       <h1 class="h1-registrasi">Login</h1>
       <hr>
-      <form action="#" id="form-login">
+      <form action="">
         <label for="name" class="label-form">Email</label>
-        <input type="text" name="name" id="email-input" class="input-form" />
+        <input type="text" name="name" id="name" class="input-form" />
         <label for="name" class="label-form">Password</label>
-        <input type="text" name="name" id="password-input" class="input-form" />
-        <button type="submit" id="submit-login" class="button-form">Login</button>
+        <input type="text" name="name" id="name" class="input-form" />
+        <button type="submit" class="button-form">Login</button>
       </form>
-      <p class="login-indicator">Username atau Password Salah</p>
       <p class="p-form">Belum punya akun ? <a class="href-form" onclick="register()"
           style="cursor: pointer">Register</a></p>
     </div>

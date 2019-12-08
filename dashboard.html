@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styleMobile.css">
+  <link rel="stylesheet" href="css/styleTablet.css">
+  <link rel="stylesheet" href="css/styleDesktop.css">
+  <link rel="stylesheet" href="css/styleDesktop2.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Login -->
+  <div class="access">
+    <div class="container">
+      <a href="profil.html" style="color: white; text-decoration: none;">
+        <p class="my-profile-dashboard"><span class="icon-profile"></span> Rahmad
+          Firmansyah</p>
+      </a>
+    </div>
+  </div>
+  <!-- End of Login -->
+
+  <!-- Nav -->
+  <nav class="nav-top">
+    <div class="container">
+      <div class="image-nav">
+        <img src="img/logo/nature.png" alt="" class="logo">
+      </div>
+      <div class="menu-button">
+        <div class="strip"></div>
+        <div class="strip"></div>
+        <div class="strip"></div>
+      </div>
+      <ul class="menu-navbar">
+        <li class="menu-item"><a href="dashboard.html" class="active">Dashboard</a></li>
+        <li class="menu-item"><a href="index-logged.html">Halaman Utama</a></li>
+        <li class="menu-item"><a href="interest-logged.html">Semua Bisnis</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End of Nav -->
+
+  <section class="dashboard-content">
+    <div class="container">
+      <!-- sidebar -->
+      <!-- dashboard-group -->
+      <div class="dashboard-group">
+        <div class="sidebar">
+          <ul>
+            <a href="dashboard.html">
+              <li class="active">Bisnis Anda</li>
+            </a>
+            <a href="result.html">
+              <li>Hasil Diperoleh</li>
+            </a>
+            <a href="profil.html">
+              <li>Profil</li>
+            </a>
+            <a href="#" onclick="logout()">
+              <li>Logout</li>
+            </a>
+          </ul>
+        </div>
+        <!-- end of sidebar -->
+
+        <!-- body -->
+        <div class="body-dashboard">
+          <h3 class="title">Bisnis Anda</h3>
+          <div class="card-dashboard">
+            <div class="image">
+              <img src="img/jagung.jpg" alt="">
+            </div>
+            <div class="body">
+              <h4>Kemitraan Bibit Sengon</h4>
+              <p class="address">Lahan Kelompok Tani Panti</p>
+              <p>Harga <span class="value">Rp. 4.000.000</span></p>
+              <p>Keuntungan <span class="value">17% per tahun</span></p>
+              <button class="more-button on-product">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of body -->
+    </div>
+  </section>
+
+
+  <div class="contact">
+    <div class="container">
+      <div class="row1">
+        <div class="logo-contact">
+          <img src="img/logo/nature.png" alt="">
+        </div>
+        <div class="desc-contact">
+          <h2>Hubungi Kami</h2>
+          <p>PT Culture Comp Indonesia <br>
+            Jl. Teropong Bintang No.11 Panti Jember <br>
+            culturecomp@gmail.com <br>
+            +6221 - 7783 0092
+          </p>
+        </div>
+      </div>
+      <div class="row2">
+        <h2>Temukan Kami</h2>
+        <div class="socmed-contact">
+          <img src="img/icons/google-plus-logo-button.svg" alt="">
+          <img src="img/icons/facebook-logo.svg" alt="">
+          <img src="img/icons/instagram-logo.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Contact -->
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Copyright. Rahmad Firmansyah 2019</p>
+  </footer>
+  <!-- End of Footer -->
+
+
+
+
+
+
+
+  <!-- modal logout -->
+  <div class="login-form" id="logout">
+    <div class="box-login">
+      <span class="close" onclick="closeModal()">X</span>
+      <div class="clear"></div>
+      <h1 class="h1-registrasi">Logout ?</h1>
+      <div class="illustration">
+        <img src="img/ask.png" alt="">
+      </div>
+      <div class="button-group">
+        <button onclick="closeModal()">Cancel</button>
+        <a href="index.html">Logout</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

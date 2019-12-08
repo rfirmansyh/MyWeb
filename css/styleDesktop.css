@@ -221,11 +221,39 @@
   .similar-card .similar-card-muted {
     font-size: 18px;
   }
-  
+  .address {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-content {
+    padding: 25px;
+  }
+  .form-content .input-group-address {
+    flex-basis: 33%;
+  }
+  .form-content .submit-form-content {
+    width: 200px;
+    margin-bottom: 10px;
+    float: right;
+  }
 
   
 
-  
+  /* Dashboard */
+
+.body-dashboard .card-dashboard {
+  width: 550px;
+}
+.result-table {
+  max-width: 550px;
+}
+
+.result-table th {
+  min-width: 220px;
+}
+.result-table td {
+  min-width: 220px;
+}
 
 
 
